@@ -1,0 +1,18 @@
+.input {
+   margin: 10px;
+}
+  
+.drop {
+    display: inline-block;
+}
+ 
+.dropdown-menu .show {
+    white-space: nowrap;
+    overflow:hidden;
+    display: inline-block;
+    z-index: 1000;
+}
+
+.button {
+   height: 50px;
+}

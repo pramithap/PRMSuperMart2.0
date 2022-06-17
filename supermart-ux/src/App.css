@@ -1,6 +1,24 @@
 .App {
   text-align: center;
+  overflow:hidden;
+  z-index: 0;
 }
+
+.header {
+  background-color:aquamarine;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+}
+
+.product-search {
+  overflow:hidden;
+  background-color: #b6c6e2;
+  height: 200px;
+  padding: 10px;
+  z-index: 0;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -14,14 +32,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +52,4 @@
     transform: rotate(360deg);
   }
 }
+
